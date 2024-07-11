@@ -25,6 +25,14 @@
     font-size: 20px;
     font-weight: 600;
 }
+.bt-optional{
+    padding: 12px 20px;
+    background-color: white;
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10.5px;
+}
 .dark-1{
     color: #0D1321;
 }
@@ -52,7 +60,7 @@
 .header-top-btn{
     margin-top: 38px;
 }
-.header-top-btn a{
+.header-top-btn a, .bt-optional a{
     text-decoration: none;
     color: #0D1321;
 }
@@ -78,4 +86,58 @@
 .header-main-btn a{
     text-decoration: none;
     color: white;
+}
+.main-content{
+    margin: 0px 152px 0px 148px;
+    background-color: rgba(0, 0, 0, .02);
+    padding: 80px 97px;
+}
+.main-content-base{
+
+}
+.main-content-text{
+    margin: 0px 47px 48px;
+}
+.main-content-text h2{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.theme-content{
+
+}
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 48px 0px 48px;
+    background-color: white;
+    margin-bottom: 32px;
+}
+.left-side{
+    width: 50%;
+    margin: 10.5px 98.3px 10.5px 0px;
+}
+.right-side{
+    width: 50%;
+    text-align: right;
+    margin: 48px 0px;
+}
+.sub-container h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 85px;
+}
+.sub-container p{
+    margin: 16px 0px 32px 0px;
+}
+.right-side-even{
+    text-align: left;
+    margin-left:32px
+}
+.right-side-even p{
+    padding: 10.5px 101px 10.5px 0px;;
+}
+.left-side-even{
+    padding-bottom: 48px;
 }
