@@ -150,9 +150,14 @@
 .video-text-container{
     margin: 0px 144px 48px;
 }
+.video-contain{
+    border-radius: 16px;
+    border: 1px solid black;
+}
 .video-frame{
-    width: 100%;
+    width: 95%;
     height: 580px;
+    padding: 32px;
 }
 .last-content{
     margin: 0px 150px 49px 150px;
@@ -199,4 +204,48 @@
 }
 #box-03{
     background-color: rgba(255, 223, 0, .05)
+}
+.footer-content{
+    background-image: url(../assets/handshake.jpg);
+    margin: 0px 150px 180px 150px;
+    background-size: cover;
+}
+.footer-sub{
+    padding: 64px 48px;
+}
+.footer-text-container{
+    padding: 0px 157px;
+}
+.footer-text-container h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: white;
+}
+.footer-text-container p{
+    padding: 0px 62px 24px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+.typing-option{
+    width: 548px;
+    border-radius: 8px;
+    padding: 19px;
+    font-size: 16px;
+}
+.programmer-details{
+    background-color: rgba(0, 0, 0, .02);
+}
+.sub-details{
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-details h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.programmer-social a{
+    text-decoration: none;
 }
